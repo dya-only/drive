@@ -26,5 +26,5 @@ cloud:
     region:
       static: ap-northeast-2
     credentials:
-      accessKey: AKIAZS3VJIUWZ2QRG4FD
-      secretKey: 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
+      accessKey: AccessKey
+      secretKey: SecretKey
