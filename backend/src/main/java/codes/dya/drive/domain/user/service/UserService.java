@@ -42,4 +42,8 @@ public class UserService {
         return new UserDto.Response(userRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException("User not found")));
     }
+
+    //TODO: Implement loginAndGetToken service
+    public String loginAndGetToken(UserDto.Login userDto) {
+    }
 }
